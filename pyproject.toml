@@ -6,11 +6,12 @@ authors = ["Jean Torre"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.13"
 pre-commit = "^3.8.0"
 black = "^24.8.0"
 flake8 = "^7.1.1"
 isort = "^5.13.2"
+apache-airflow = "^2.10.1"
 
 
 [build-system]
